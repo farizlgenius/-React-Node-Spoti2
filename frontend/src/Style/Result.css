@@ -1,0 +1,136 @@
+.result {
+  background-color: #fde767;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  height: 40rem;
+  width: 90%;
+  background-color: #d04848;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.search-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 50%;
+  margin: 1rem;
+  border-right: solid white 0.3rem;
+}
+
+.select-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 50%;
+  margin: 1rem;
+  border-right: solid white 0.3rem;
+}
+
+.create-input {
+  display: flex;
+  gap: 1rem;
+}
+
+.create-input input {
+  border: none;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  width: 15rem;
+}
+
+.create-input button {
+  background-color: white;
+  border-radius: 50%;
+  width: 2.5rem;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-playlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.search-result {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.song-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.song-result img {
+  width: 5rem;
+}
+
+.song-result button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: white;
+}
+
+.song-result button:active {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: black;
+}
+
+.select-result {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.song-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.song-select img {
+  width: 5rem;
+}
+
+.song-select button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: white;
+}
+
+.song-select button:active {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: black;
+}

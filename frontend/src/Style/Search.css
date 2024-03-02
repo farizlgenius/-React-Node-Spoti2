@@ -1,0 +1,41 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+  background-color: #f3b95f;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-input {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-input input {
+  border: none;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  width: 15rem;
+}
+
+.search-input button {
+  background-color: white;
+  border-radius: 50%;
+  width: 2.5rem;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-setting {
+  display: flex;
+  gap: 2rem;
+}
+
+.search-setting input {
+  margin-right: 0.2rem;
+}
